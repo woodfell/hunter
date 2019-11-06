@@ -8,11 +8,11 @@ hunter_add_version(
   PACKAGE_NAME
   check
   VERSION
-  "0.12.0"
+  "0.13.0"
   URL
-  "https://github.com/libcheck/check/releases/download/0.12.0/check-0.12.0.tar.gz"
+  "https://github.com/libcheck/check/releases/download/0.13.0/check-0.13.0.tar.gz"
   SHA1
-  f6d95392b8c6b9efdab559e6dba239b30a389b56
+  03d540c4c2a0e245f2eae5757711a4bd7409866b
   )
 
 hunter_cmake_args(
