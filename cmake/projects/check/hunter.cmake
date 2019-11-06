@@ -6,7 +6,7 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
   PACKAGE_NAME
-  Check
+  check
   VERSION
   "0.12.0"
   URL
@@ -16,7 +16,7 @@ hunter_add_version(
   )
 
 hunter_cmake_args(
-  Check
+  check
   CMAKE_ARGS
   BUILD_TESTING=OFF
   CHECK_ENABLE_GCOV=OFF
@@ -24,6 +24,6 @@ hunter_cmake_args(
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
-hunter_cacheable(Check)
-hunter_download(PACKAGE_NAME Check)
+hunter_cacheable(check)
+hunter_download(PACKAGE_NAME check)
 
